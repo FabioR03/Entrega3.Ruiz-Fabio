@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "destino": "París",
+    "precioBase": 900,
+    "hotel": 300,
+    "excursiones": 150,
+    "transporte": 100
+  },
+  {
+    "id": 2,
+    "destino": "Tokio",
+    "precioBase": 1100,
+    "hotel": 400,
+    "excursiones": 200,
+    "transporte": 150
+  },
+  {
+    "id": 3,
+    "destino": "Buenos Aires",
+    "precioBase": 500,
+    "hotel": 200,
+    "excursiones": 100,
+    "transporte": 50
+  },
+  {
+    "id": 4,
+    "destino": "Madrid",
+    "precioBase": 850,
+    "hotel": 250,
+    "excursiones": 120,
+    "transporte": 90
+  },
+  {
+    "id": 5,
+    "destino": "Cartagena",
+    "precioBase": 600,
+    "hotel": 180,
+    "excursiones": 130,
+    "transporte": 70
+  },
+  {
+    "id": 6,
+    "destino": "Nueva York",
+    "precioBase": 1000,
+    "hotel": 350,
+    "excursiones": 180,
+    "transporte": 120
+  },
+  {
+    "id": 7,
+    "destino": "Londres",
+    "precioBase": 950,
+    "hotel": 320,
+    "excursiones": 160,
+    "transporte": 110
+  },
+  {
+    "id": 8,
+    "destino": "Roma",
+    "precioBase": 800,
+    "hotel": 280,
+    "excursiones": 140,
+    "transporte": 100
+  }
+]

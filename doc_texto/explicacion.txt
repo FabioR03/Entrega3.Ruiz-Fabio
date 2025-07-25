@@ -1,0 +1,12 @@
+// Cotizador de Viajes 
+
+
+//Funcionalidad principal
+
+1. El usuario elige un destino desde una lista desplegable.
+2. Selecciona la moneda en la que desea ver los precios (USD, EUR, ARS, COP).
+3. El sistema cotiza el viaje completo (base + hotel + excursiones + transporte).
+4. Muestra el resultado en pantalla con formato de moneda local.
+5. Se guarda la cotización en el historial (almacenado en localStorage).
+6. Se notifican los eventos importantes con notificaciones modernas gracias a la utilización de librerias.
+
