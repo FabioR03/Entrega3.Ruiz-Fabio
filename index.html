@@ -4,27 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cotizador de Viajes_Ruiz</title>
-    <link rel="stylesheet" href="./estilos/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./js/main.js"></script>
     <link rel="stylesheet" href="./librerias/toastify.min.css" />
     <script src="./librerias/toastify.min.js"></script>
-    <script defer type="module" src="./script/main.js"></script>
     <script src="./librerias/sweetalert2.all.min.js"></script>
+    
 </head>
-    <body>
+
+<body>
+
     <div class="container">
         <h1>Cotizador de Viajes</h1>
 
-        <form id="formCotizador">
+    <form id="formCotizador">
         <label for="destino">Destino:</label>
         <select id="destino" required></select>
 
         <label for="duracion">Duración (días):</label>
         <input type="number" id="duracion" min="1" value="5" required />
 
-        <label>Extras:</label><br>
+        <label>Extras:</label><br />
         <div>
-            <input type="checkbox" id="hotel"/> <label for="hotel">Hotel</label
-            ><br />
+            <input type="checkbox" id="hotel" />
+            <label for="hotel">Hotel</label><br />
             <input type="checkbox" id="excursiones" />
             <label for="excursiones">Excursiones</label><br />
             <input type="checkbox" id="transporte" />
@@ -40,10 +43,16 @@
         </select>
 
         <button type="submit">Calcular</button>
-        </form>
+        <button type="button" id="vaciarHistorial" class="btn-secundario">
+            Vaciar Historial
+        </button>
+    </form>
 
-        <div id="resultadoCotizacion" class="resultado"></div>
+    <div id="resultadoCotizacion" class="resultado"></div>
+
+    <div id="historial" class="historial"></div>
     </div>
+    
+</body>
 
-    </body>
 </html>

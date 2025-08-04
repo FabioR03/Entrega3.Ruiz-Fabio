@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f3f3;
+  padding: 2em;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  border: 1px solid #cf7d7d;
+  background: #e6e0e0;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+label {
+  display: block;
+  margin-top: 1em;
+}
+
+input[type="number"],
+select {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.3em;
+}
+
+button {
+  margin-top: 1em;
+  padding: 0.7em 2em;
+  background-color: #138322;
+  color: rgb(14, 13, 13);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1e8bd4;
+}
+
+
+.btn-secundario {
+  background-color: #d9534f;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.btn-secundario:hover {
+  background-color: #c9302c;
+}
+
+.resultado {
+  margin-top: 2em;
+  padding: 1em;
+  background: #bfcbe0;
+  border: 1px solid #0a0e0b;
+  border-radius: 5px;
+}
+
+.historial {
+  margin-top: 1.5em;
+}
+
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 1em;
+  margin-bottom: 1em;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  border: 1px solid #ddd;
+}
+
+
+.acciones-card {
+  margin-top: 1em;
+  display: flex;
+  gap: 10px;
+}
+
+.acciones-card button {
+  background-color: #0a325e;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+}
+
+.acciones-card button:hover {
+  background-color: #53bb23;
+}
+
+.acciones-card button:last-child {
+  background-color: #d9534f;
+}
+
+.acciones-card button:last-child:hover {
+  background-color: #c9302c;
+}

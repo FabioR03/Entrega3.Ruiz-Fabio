@@ -9,4 +9,8 @@
 4. Muestra el resultado en pantalla con formato de moneda local.
 5. Se guarda la cotización en el historial (almacenado en localStorage).
 6. Se notifican los eventos importantes con notificaciones modernas gracias a la utilización de librerias.
+7. Se comparan las cotizaciones calculadas de acuerdo a lo que el usuario seleccione
+8. Se pueden editar por separado cada uno de los valores calculados
+8. Opcion de borrar cada una de las cotizaciones por separado.
+9. Opción de borrar el historial completo
 
